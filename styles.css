@@ -1,0 +1,80 @@
+header {
+	position:fixed;
+	background-color: #404040;
+	color:white;
+	display:inline;
+	width: 100%;
+	padding:10px;
+	top: 0;
+	left: 0;
+}
+
+nav ul {
+	display:inline;
+	float: right;
+	width: 300px;
+}
+
+nav {
+	position:fixed;
+	top:30px;
+	right:0;
+}
+
+nav li {
+	display:inline;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navitem {
+	text-decoration: none;
+	color:white;
+	font-size: 16px;
+	padding: 5px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.navitem:hover{
+	background-color:white;
+	color: #404040;
+	border-radius: 5px;
+}
+
+.first-item {
+	margin-top:120px;
+}
+
+#spurs {
+	text-decoration: none;
+	color: navy;
+}
+
+#spurs:hover {
+	color: #ffd633;
+}
+
+#home-dave {
+	margin: 5px auto 5px auto;
+	max-width: 60%;
+	display:block;
+	border: 2px solid #66a3ff;
+	border-radius: 20%;
+}
+
+.index-text {
+	text-align: center;
+}
+
+body {
+	background-color: #e6e6e6;
+}
+
+blockquote {
+	border: 1px solid black;
+	
+}
