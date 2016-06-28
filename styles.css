@@ -7,6 +7,7 @@ header {
 	padding:10px;
 	top: 0;
 	left: 0;
+	z-index: 999;
 }
 
 nav ul {
@@ -84,21 +85,6 @@ blockquote {
 	margin-bottom: 50px;
 }
 
-.proj-link {
-	text-decoration: none;
-	color: black;
-	font-size: 20px;
-}
-
-.proj-link:hover {
-	color:#ffd633;
-}
-
-.proj {
-	list-style: none;
-	margin-bottom: 10px;
-}
-
 #res-header {
 	margin-bottom: 15px;
 }
@@ -148,7 +134,7 @@ blockquote {
 }
 
 #soccer > li {
-	background-color: #66cc00;
+	background-color: #e6e6e6;
 	border-radius: 8px;
 	width: 3em;
 }
@@ -158,6 +144,7 @@ blockquote {
 	left: -40px;
 	top: 300px;
 	z-index: -1000;
+	max-width: 1250px;
 }
 
 #ender {
@@ -168,9 +155,51 @@ blockquote {
 	background-image: url(images/earth.jpg);
 	background-size: cover;
 	padding:50px;
+	max-width: 1110px;
 }
 
 #ender > p {
 	width: 200px;
 	color:white;
+}
+
+.port-image {
+	max-width: 100%;
+	max-height: 40%;
+}
+
+#port-head {
+	text-align: center;
+}
+
+main {
+	margin: 2em auto 2em auto;
+	width: 1250;
+	
+}
+
+section {
+	width: 100%;
+	overflow: auto;
+	text-align: center;
+}
+
+.proj {
+	float:left;
+	height: 100%;
+	width: 30%;
+	margin: 0 1% 1em 1%;
+	border: 3px solid #e6e6e6;
+}
+
+.proj-link {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	/*min-width: 6em;
+	max-width: 12em;*/
+}
+
+.proj:hover {
+	border:3px solid #ffd633;
 }
