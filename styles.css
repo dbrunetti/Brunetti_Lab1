@@ -76,5 +76,101 @@ body {
 
 blockquote {
 	border: 1px solid black;
-	
+	max-width: 500px;
+	background-color: white;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 5px 5px 5px 10px;
+	margin-bottom: 50px;
+}
+
+.proj-link {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.proj-link:hover {
+	color:#ffd633;
+}
+
+.proj {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+#res-header {
+	margin-bottom: 15px;
+}
+
+#res-header > *{
+	text-align: center;
+	margin-bottom:-12px;
+}
+
+#coding {
+	background-image:url(images/coding.jpg);
+	background-size: cover;
+	padding: 50px;
+	color:white;
+	list-style: none;
+}
+
+#coding > p {
+	background-color: black;
+}
+
+#travel {
+	background-image: url(images/travel.jpg);
+	background-size: cover;
+	padding: 50px;
+	list-style: none;
+}
+
+#writing {
+	background-image: url(images/writing.jpg);
+	background-size: cover;
+	padding: 50px;
+	list-style: none;
+}
+
+#writing >li {
+	background-color: #b3b3b3;
+	border-radius: 8px;
+	width: 3.5em;
+}
+
+#soccer {
+	background-image: url(images/soccer.jpg);
+	background-size: cover;
+	padding: 50px;
+	list-style: none;
+}
+
+#soccer > li {
+	background-color: #66cc00;
+	border-radius: 8px;
+	width: 3em;
+}
+
+#interests {
+	position: absolute;
+	left: -40px;
+	top: 300px;
+	z-index: -1000;
+}
+
+#ender {
+	position: absolute;
+	top: 1150px;
+	left:0;
+	width:100%;
+	background-image: url(images/earth.jpg);
+	background-size: cover;
+	padding:50px;
+}
+
+#ender > p {
+	width: 200px;
+	color:white;
 }
