@@ -149,7 +149,7 @@ blockquote {
 
 #ender {
 	position: absolute;
-	top: 1150px;
+	top: 1125px;
 	left:0;
 	width:100%;
 	background-image: url(images/earth.jpg);
@@ -175,7 +175,6 @@ blockquote {
 main {
 	margin: 2em auto 2em auto;
 	width: 1250;
-	
 }
 
 section {
@@ -187,7 +186,7 @@ section {
 .proj {
 	float:left;
 	height: 100%;
-	width: 30%;
+	width: 29.5%;
 	margin: 0 1% 1em 1%;
 	border: 3px solid #e6e6e6;
 }
