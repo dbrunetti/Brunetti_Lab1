@@ -168,7 +168,7 @@ main {
 
 .proj {
 	float:left;
-	height: 400px;
+	height: 475px;
 	width: 29.5%;
 	margin: 0 1% 1em 1%;
 	border: 3px solid #e6e6e6;
@@ -185,6 +185,15 @@ main {
 
 .proj:hover {
 	border:3px solid #ffd633;
+}
+
+.gh-link {
+	color: navy;
+	text-decoration: none;
+}
+
+.gh-link:hover {
+	color: #ffd633;
 }
 
 @media (max-width: 800px) {
